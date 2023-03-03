@@ -8,6 +8,8 @@ pip install virtualenv
 
 pip install django
 
+pip freeze > requirements.txt
+
 pip install -r requirements.txt
 
 python manage.py makemigrations
